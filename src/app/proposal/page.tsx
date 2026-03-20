@@ -241,25 +241,25 @@ export default function ProposalPage() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-            <div className="bg-texture-dark bg-cathedral text-parchment p-8 rounded-lg shadow-xl">
-              <h3 className="!mt-0 !text-amber border-b border-amber/30 pb-4">🎵 Music Discovery</h3>
-              <ul className="text-sm space-y-4 pt-4 prose-li:text-parchment/80">
-                <li><strong>Album SEO:</strong> Add keyword-optimized copy, MusicAlbum schema, and a structured tracklist to 'Even Dragons Shall Him Praise', 'Hearth Songs', and 'Awake the Dawn'.</li>
-                <li><strong>Vinyl Store:</strong> Rewrite with <em>'vinyl records christian music'</em> targeting.</li>
-                <li><strong>Article:</strong> Why Christians Should Sing the Psalms</li>
-                <li><strong>Article:</strong> What Is Christian Folk Music? A Guide</li>
-                <li><strong>Article:</strong> The Best Psalms Set to Music</li>
+            <div className="not-prose bg-texture-dark bg-cathedral text-parchment p-8 rounded-lg shadow-xl">
+              <h3 className="!mt-0 !text-amber border-b border-amber/30 pb-4 text-2xl">Music Discovery</h3>
+              <ul className="text-base space-y-5 pt-4 leading-relaxed text-parchment">
+                <li><strong className="!text-amber">Album SEO:</strong> Add keyword-optimized copy, MusicAlbum schema, and a structured tracklist to 'Even Dragons Shall Him Praise', 'Hearth Songs', and 'Awake the Dawn'.</li>
+                <li><strong className="!text-amber">Vinyl Store:</strong> Rewrite with <em>'vinyl records christian music'</em> targeting.</li>
+                <li><strong className="!text-amber">Article:</strong> Why Christians Should Sing the Psalms</li>
+                <li><strong className="!text-amber">Article:</strong> What Is Christian Folk Music? A Guide</li>
+                <li><strong className="!text-amber">Article:</strong> The Best Psalms Set to Music</li>
               </ul>
             </div>
 
-            <div className="bg-texture-dark bg-wood text-parchment p-8 rounded-lg shadow-xl">
-              <h3 className="!mt-0 !text-amber border-b border-amber/30 pb-4">🎙️ Bright Hearth Podcast</h3>
-              <ul className="text-sm space-y-4 pt-4 prose-li:text-parchment/80">
-                <li><strong>Podcast Landing Page:</strong> Keyword-rich show description, Episode list with searchable titles, PodcastSeries schema.</li>
-                <li><strong>Hub Article:</strong> What Is the Tradwife Movement? A Christian Perspective (Highest Priority)</li>
-                <li><strong>Hub Article:</strong> Homemaking Skills Every Christian Woman Should Master</li>
-                <li><strong>Hub Article:</strong> The Best Christian Podcasts for Wives</li>
-                <li><strong>Show Notes:</strong> 300-500 words for each legacy episode to capture long-tail keyword traffic.</li>
+            <div className="not-prose bg-texture-dark bg-wood text-parchment p-8 rounded-lg shadow-xl">
+              <h3 className="!mt-0 !text-amber border-b border-amber/30 pb-4 text-2xl">Bright Hearth Podcast</h3>
+              <ul className="text-base space-y-5 pt-4 leading-relaxed text-parchment">
+                <li><strong className="!text-amber">Podcast Landing Page:</strong> Keyword-rich show description, Episode list with searchable titles, PodcastSeries schema.</li>
+                <li><strong className="!text-amber">Hub Article:</strong> What Is the Tradwife Movement? A Christian Perspective (Highest Priority)</li>
+                <li><strong className="!text-amber">Hub Article:</strong> Homemaking Skills Every Christian Woman Should Master</li>
+                <li><strong className="!text-amber">Hub Article:</strong> The Best Christian Podcasts for Wives</li>
+                <li><strong className="!text-amber">Show Notes:</strong> 300-500 words for each legacy episode to capture long-tail keyword traffic.</li>
               </ul>
             </div>
           </div>
@@ -348,30 +348,30 @@ export default function ProposalPage() {
             </div>
           </div>
 
-          <div className="bg-wood text-parchment p-12 text-center mt-24 shadow-2xl relative overflow-hidden">
+          <div className="not-prose bg-wood text-parchment p-12 text-center mt-24 shadow-2xl relative overflow-hidden">
             <div className="absolute inset-0 bg-texture-dark mix-blend-multiply opacity-50"></div>
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-amber/5 via-transparent to-transparent opacity-50 mix-blend-screen pointer-events-none"></div>
-            <h2 className="!text-parchment relative z-10 !mt-0 !border-0 text-4xl mb-8">Why Appalachia Digital?</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10 text-left">
-              <div className="space-y-2">
-                <span className="text-amber text-2xl mb-2 block">✓</span>
-                <p className="font-bold mb-1">Reformed Christian-owned</p>
-                <p className="text-sm opacity-80">We're working within your theological tradition, not adapting to it.</p>
+            <h2 className="!text-parchment relative z-10 !mt-0 !border-0 text-4xl mb-10">Why Appalachia Digital?</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 relative z-10 text-left">
+              <div className="space-y-3">
+                <span className="text-amber text-3xl mb-1 block font-bold">✓</span>
+                <p className="font-bold mb-1 text-white text-lg">Reformed Christian-owned</p>
+                <p className="text-base text-parchment/90 leading-relaxed">We're working within your theological tradition, not adapting to it.</p>
               </div>
-              <div className="space-y-2">
-                <span className="text-amber text-2xl mb-2 block">✓</span>
-                <p className="font-bold mb-1">Infrastructure Knowledge</p>
-                <p className="text-sm opacity-80">We've already audited thehauntedcosmos.com and identified the 429 issue.</p>
+              <div className="space-y-3">
+                <span className="text-amber text-3xl mb-1 block font-bold">✓</span>
+                <p className="font-bold mb-1 text-white text-lg">Infrastructure Knowledge</p>
+                <p className="text-base text-parchment/90 leading-relaxed">We've already audited thehauntedcosmos.com and identified the 429 issue.</p>
               </div>
-              <div className="space-y-2">
-                <span className="text-amber text-2xl mb-2 block">✓</span>
-                <p className="font-bold mb-1">Data-Driven Modeling</p>
-                <p className="text-sm opacity-80">DataForSEO-powered keyword research with live Google data.</p>
+              <div className="space-y-3">
+                <span className="text-amber text-3xl mb-1 block font-bold">✓</span>
+                <p className="font-bold mb-1 text-white text-lg">Data-Driven Modeling</p>
+                <p className="text-base text-parchment/90 leading-relaxed">DataForSEO-powered keyword research with live Google data.</p>
               </div>
-              <div className="space-y-2">
-                <span className="text-amber text-2xl mb-2 block">✓</span>
-                <p className="font-bold mb-1">Full SEO Stack</p>
-                <p className="text-sm opacity-80">Technical, content, schema, AI optimization, and music mapping.</p>
+              <div className="space-y-3">
+                <span className="text-amber text-3xl mb-1 block font-bold">✓</span>
+                <p className="font-bold mb-1 text-white text-lg">Full SEO Stack</p>
+                <p className="text-base text-parchment/90 leading-relaxed">Technical, content, schema, AI optimization, and music mapping.</p>
               </div>
             </div>
           </div>
